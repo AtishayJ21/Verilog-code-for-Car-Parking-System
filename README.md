@@ -1,2 +1,4 @@
 # Verilog-code-for-Car-Parking-System
-This project aims to implement a car parking system using Verilog HDL. The Verilog code provided here fully presents the functionality of the system.
+This project aims to implement a car parking system using Verilog HDL.
+The car parking system consists of an entrance gate equipped with a sensor that detects incoming vehicles. When the sensor is triggered, the gate prompts the user to enter a password to gain access. If the correct password is entered, the gate opens, allowing the vehicle to enter the parking area. However, if an incorrect password is provided, the gate remains locked.
+The Verilog code provides the necessary logic to control the functioning of the car parking system. It utilizes input signals from sensors, implements password verification, and controls the gate's opening and locking mechanisms. By implementing this code in a hardware design, you can create a functional car parking system that ensures only authorized vehicles can enter and maintains security even when multiple vehicles are involved.
